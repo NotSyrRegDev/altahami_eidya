@@ -44,21 +44,39 @@ RED COLOR : #8a0000
     flex-direction: column;
 }
 
+.underlined_text {
+    padding-bottom: 1px;
+    border-bottom: 1px solid  rgba(255,255,255,0.478);
+    cursor: pointer !important;
+}
+
+.flex_row_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 #text04 {
     color: #FFFFFF;
     font-family: 'Cairo', sans-serif;
     letter-spacing: -0.025rem;
     width: 100%;
-    font-size: 30px;
+    font-size: 42px;
     line-height: 1.125;
     font-weight: 300;
     text-align: center;
 }
 
+.small_icon {
+    max-height: 1.8rem;
+    margin: 0 8px;
+}
+
 #text01 {
     color: rgba(255,255,255,0.478);
     font-family: 'Cairo', sans-serif;
-   font-size: 22px;
+   font-size: 20px;
     line-height: 2;
     font-weight: 300;
     text-align: center;
@@ -66,7 +84,7 @@ RED COLOR : #8a0000
 
 .subheadline_main {
     font-family: 'Alexandria' , sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
     margin-bottom: 0.5rem;
 }
@@ -98,7 +116,7 @@ RED COLOR : #8a0000
    }
 
    .icon_btn {
-    max-height: 2.2rem;
+    max-height: 2.1rem;
     margin: 0 12px;
    }
 
@@ -128,7 +146,7 @@ RED COLOR : #8a0000
     color: #FFF;
     padding: 0.6rem 1.8rem;
     border-radius: 500px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Cairo';
     margin-bottom: 0.5rem;
     cursor: pointer;
