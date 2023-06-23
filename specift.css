@@ -1,0 +1,161 @@
+
+/* 
+
+COLORS : 
+
+DARK BLUE : #212331
+RED COLOR : #8a0000
+
+
+
+
+*/
+
+.inner_bg {
+
+}
+
+.logo_tahami {
+    max-height: 5.5rem;
+}
+
+.mt-1 { margin-top: 1rem !important;}
+.mt-2 { margin-top: 1.5rem !important;}
+.mt-3 { margin-top: 2rem !important;}
+.mt-4 { margin-top: 3rem !important;}
+.mt-5 { margin-top: 4rem !important;}
+.mt-6 { margin-top: 5rem !important;}
+.mt-7 { margin-top: 6rem !important;}
+.mt-8 { margin-top: 7rem !important;}
+.mt-9 { margin-top: 8rem !important;}
+.mt-10 { margin-top: 9rem !important;}
+
+
+.mb-1 { margin-bottom: 1rem !important;}
+.mb-2 { margin-bottom: 1.5rem !important;}
+.mb-3 {margin-bottom: 2rem !important;}
+.mb-4 {margin-bottom: 3rem !important;}
+.mb-5 {margin-bottom: 4rem !important;}
+
+#flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text04 {
+    color: #FFFFFF;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: -0.025rem;
+    width: 100%;
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 300;
+    text-align: center;
+}
+
+#text01 {
+    color: rgba(255,255,255,0.478);
+    font-family: 'Cairo', sans-serif;
+   font-size: 22px;
+    line-height: 2;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subheadline_main {
+    font-family: 'Alexandria' , sans-serif;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.underlined_para {
+    font-family: 'Alexandria' , sans-serif;
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.2s ease-in;
+    padding-bottom: 8px;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.underlined_para:hover { 
+    border-bottom: 1px solid #fff;
+  
+}
+
+.d-flex-c {
+    display: flex;
+    align-items: center;
+}
+
+.action_div {
+    width: 100%;
+   }
+
+   .icon_btn {
+    max-height: 2.2rem;
+    margin: 0 12px;
+   }
+
+   #forming_result {
+    display: none;
+    padding: 3rem 0;
+   }
+
+   #error-message {
+    font-family: 'Cairo' , sans-serif;
+    font-size: 22px;
+  
+    color: #c60202;
+    text-align: center;
+    margin: 2.5rem 0;
+    font-weight: bold !important;
+    display: none;
+   }
+
+  #canvas-container canvas {
+    border-radius: 20px;
+    max-height: 32rem;
+  }
+
+   .show_btn {
+    background: #8a0000;
+    color: #FFF;
+    padding: 0.6rem 1.8rem;
+    border-radius: 500px;
+    font-size: 20px;
+    font-family: 'Cairo';
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    border: none !important;
+   
+}
+
+.text-center {
+    text-align: center;
+}
+   
+   .input_form {
+    background: #f9f9f9;
+    color: #171D1C;
+    border: 2px solid #515751;
+    height: 2.5rem;
+    width: 100%;
+    min-width: 350px;
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    padding: 1.5rem 2.5rem;
+}
+.input_form:hover ,  .input_form:active {
+ border: 2px solid #fdce6a;
+}
+
+.input_form::placeholder {
+ opacity: 0.6;
+}
