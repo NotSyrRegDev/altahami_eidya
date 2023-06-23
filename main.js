@@ -35,9 +35,9 @@ function drawCanvasImage() {
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
     // Add some text to the canvas
-    ctx.font = '42px Alexandria';
+    ctx.font = '900 42px Alexandria ';
     ctx.fillStyle = '#501d1b';
-    ctx.fontWeight = 'bold';
+
     const text =  nameInput.value;
     const textWidth = ctx.measureText(text).width;
     const textHeight = parseInt(ctx.font);
