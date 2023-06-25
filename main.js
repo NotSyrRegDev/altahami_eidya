@@ -9,6 +9,11 @@ const playAgain = document.getElementById('play_again');
 
 
 function drawCanvasImage() {
+  showButton.disabled = true;
+  setTimeout(function() {
+    showButton.disabled = false;
+  }, 1000); // Change this delay as needed
+
   // Create a new canvas element
   const canvas = document.createElement('canvas');
 
@@ -35,14 +40,14 @@ function drawCanvasImage() {
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
     // Add some text to the canvas
-    ctx.font = '900 42px Alexandria ';
+    ctx.font = '900 40px Alexandria ';
     ctx.fillStyle = '#501d1b';
 
     const text =  nameInput.value;
     const textWidth = ctx.measureText(text).width;
     const textHeight = parseInt(ctx.font);
     const x = canvas.width / 2 - textWidth / 2;
-    const y = canvas.height - textHeight - 100;
+    const y = canvas.height - textHeight - 135;
     ctx.fillText(text, x, y);
 
     formTyping.style.display = 'none';
